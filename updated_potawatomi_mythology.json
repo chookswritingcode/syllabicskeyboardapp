@@ -1,0 +1,498 @@
+[
+  {
+    "id": "kitchi_manitou",
+    "name": "Kitchi Manitou",
+    "type": "person",
+    "category": "creator_spirit",
+    "tags": [
+      "creation",
+      "great_spirit"
+    ],
+    "description": "The Great Spirit, supreme creator and spiritual force behind all things.",
+    "lore_importance": 5,
+    "game_uses": {
+      "encounterType": "story",
+      "possibleTraits": [
+        "wisdom"
+      ],
+      "abilitiesGranted": []
+    }
+  },
+  {
+    "id": "nekahnee_bahnasike",
+    "name": "Nekahnee Bahnasike",
+    "type": "person",
+    "category": "leader_spirit",
+    "tags": [
+      "bird",
+      "leadership",
+      "women"
+    ],
+    "description": "Leader of the bird women, a powerful matriarchal spirit.",
+    "lore_importance": 3,
+    "game_uses": {
+      "encounterType": "mentor",
+      "possibleTraits": [
+        "leadership",
+        "intuition"
+      ],
+      "abilitiesGranted": []
+    }
+  },
+  {
+    "id": "geezhigo_quae",
+    "name": "Geezhigo-Quae",
+    "type": "person",
+    "category": "sky_spirit",
+    "tags": [
+      "sky",
+      "creation",
+      "feminine"
+    ],
+    "description": "Sky Woman, associated with the heavens and origin of life.",
+    "lore_importance": 5,
+    "game_uses": {
+      "encounterType": "story",
+      "possibleTraits": [
+        "insight",
+        "birth"
+      ],
+      "abilitiesGranted": []
+    }
+  },
+  {
+    "id": "muzzu_kummik_quae",
+    "name": "Muzzu-Kummik-Quae",
+    "type": "person",
+    "category": "earth_spirit",
+    "tags": [
+      "earth",
+      "mother",
+      "life"
+    ],
+    "description": "Mother Earth, who sustains all living beings.",
+    "lore_importance": 5,
+    "game_uses": {
+      "encounterType": "mentor",
+      "possibleTraits": [
+        "nurturing",
+        "resilience"
+      ],
+      "abilitiesGranted": []
+    }
+  },
+  {
+    "id": "misshipeshu",
+    "name": "Misshipeshu",
+    "type": "person",
+    "category": "water_spirit",
+    "tags": [
+      "water",
+      "god",
+      "lake"
+    ],
+    "description": "The Water God, protector and terror of lakes and rivers.",
+    "lore_importance": 4,
+    "game_uses": {
+      "encounterType": "challenge",
+      "possibleTraits": [
+        "fear",
+        "courage"
+      ],
+      "abilitiesGranted": [
+        "waterTravel"
+      ]
+    }
+  },
+  {
+    "id": "manitou_namiege",
+    "name": "Manitou Namiege",
+    "type": "person",
+    "category": "spirit",
+    "tags": [
+      "water",
+      "spirit"
+    ],
+    "description": "A water spirit associated with natural forces and ceremonies.",
+    "lore_importance": 3,
+    "game_uses": {
+      "encounterType": "ritual",
+      "possibleTraits": [
+        "respect",
+        "calm"
+      ],
+      "abilitiesGranted": []
+    }
+  },
+  {
+    "id": "windigo",
+    "name": "Windigo",
+    "type": "person",
+    "category": "evil_entity",
+    "tags": [
+      "winter",
+      "evil",
+      "starvation"
+    ],
+    "description": "Evil spirit of starvation, madness, and winter terror.",
+    "lore_importance": 5,
+    "game_uses": {
+      "encounterType": "enemy",
+      "possibleTraits": [
+        "fear",
+        "strength"
+      ],
+      "abilitiesGranted": []
+    }
+  },
+  {
+    "id": "kitchinikkoo_missahba",
+    "name": "Kitchinikkoo / Missahba",
+    "type": "person",
+    "category": "giant_helper",
+    "tags": [
+      "goose",
+      "giant",
+      "warrior"
+    ],
+    "description": "Big Goose who turns into a giant named Missahba to fight the Windigo.",
+    "lore_importance": 4,
+    "game_uses": {
+      "encounterType": "challenge",
+      "possibleTraits": [
+        "strength",
+        "bravery"
+      ],
+      "abilitiesGranted": [
+        "giantForm"
+      ]
+    }
+  },
+  {
+    "id": "matchi_auwishuk",
+    "name": "Matchi-auwishuk",
+    "type": "person",
+    "category": "evil_entity",
+    "tags": [
+      "evil"
+    ],
+    "description": "Evil ones who serve darkness and imbalance.",
+    "lore_importance": 2,
+    "game_uses": {
+      "encounterType": "enemy",
+      "possibleTraits": [
+        "resistance"
+      ],
+      "abilitiesGranted": []
+    }
+  },
+  {
+    "id": "paakuk",
+    "name": "Paakuk",
+    "type": "person",
+    "category": "cursed_entity",
+    "tags": [
+      "skeleton",
+      "murder",
+      "punishment"
+    ],
+    "description": "Committed the first murder and must live as a skeleton for eternity.",
+    "lore_importance": 4,
+    "game_uses": {
+      "encounterType": "ghost",
+      "possibleTraits": [
+        "judgment",
+        "remorse"
+      ],
+      "abilitiesGranted": []
+    }
+  },
+  {
+    "id": "maymaygwaysiwuk",
+    "name": "Maymaygwaysiwuk",
+    "type": "person",
+    "category": "water_being",
+    "tags": [
+      "water",
+      "spirit",
+      "furry"
+    ],
+    "description": "Mysterious water beings with furry babies.",
+    "lore_importance": 3,
+    "game_uses": {
+      "encounterType": "ritual",
+      "possibleTraits": [
+        "curiosity",
+        "respect"
+      ],
+      "abilitiesGranted": []
+    }
+  },
+  {
+    "id": "arrow_of_bemookawin",
+    "name": "Arrow of Bemookawin",
+    "type": "thing",
+    "category": "cursed_object",
+    "tags": [
+      "weapon",
+      "curse",
+      "sickness"
+    ],
+    "description": "Created by the seven evil conjurors, it kills by making one sick.",
+    "lore_importance": 3,
+    "game_uses": {
+      "encounterType": "item",
+      "possibleTraits": [
+        "danger",
+        "protection"
+      ],
+      "abilitiesGranted": [
+        "poison"
+      ]
+    }
+  },
+  {
+    "id": "wakan_tanka",
+    "name": "Wakan Tanka",
+    "type": "person",
+    "category": "creator_spirit",
+    "tags": [
+      "great_spirit",
+      "western"
+    ],
+    "description": "The name for the Great Spirit in the West.",
+    "lore_importance": 4,
+    "game_uses": {
+      "encounterType": "story",
+      "possibleTraits": [
+        "reverence"
+      ],
+      "abilitiesGranted": []
+    }
+  },
+  {
+    "id": "kitchi_onahgumming",
+    "name": "Kitchi'onahgumming",
+    "type": "place",
+    "category": "village",
+    "tags": [
+      "shadow_people",
+      "feast",
+      "canoes"
+    ],
+    "description": "A great longhouse village where shadow people emerge at night to feast on mushrooms.",
+    "lore_importance": 4,
+    "game_uses": {
+      "encounterType": "location",
+      "possibleTraits": [
+        "caution",
+        "mystery"
+      ],
+      "abilitiesGranted": []
+    }
+  },
+  {
+    "id": "okeezhikokah_eninnewuk",
+    "name": "Okeezhikokah Eninnewuk",
+    "type": "person",
+    "category": "spirit_group",
+    "tags": [
+      "heaven",
+      "ancestral"
+    ],
+    "description": "The Heaven People who dwell beyond physical sight.",
+    "lore_importance": 4,
+    "game_uses": {
+      "encounterType": "story",
+      "possibleTraits": [
+        "vision",
+        "spirituality"
+      ],
+      "abilitiesGranted": []
+    }
+  },
+  {
+    "id": "wahbeenowin",
+    "name": "Wahbeenowin",
+    "type": "society",
+    "category": "vision_society",
+    "tags": [
+      "vision",
+      "heaven",
+      "initiation"
+    ],
+    "description": "A vision society connected to the Heaven People, guiding spiritual seekers.",
+    "lore_importance": 3,
+    "game_uses": {
+      "encounterType": "ritual",
+      "possibleTraits": [
+        "clarity",
+        "prophecy"
+      ],
+      "abilitiesGranted": [
+        "spiritVision"
+      ]
+    }
+  },
+  {
+    "id": "maude_kawiss",
+    "name": "Maude-Kawiss",
+    "type": "person",
+    "category": "ancestor",
+    "tags": [
+      "bear",
+      "history",
+      "wampum"
+    ],
+    "description": "First son of Winona and Ae-pungishimook, gifted the Wampum Belt by the Bear Nation.",
+    "lore_importance": 4,
+    "game_uses": {
+      "encounterType": "story",
+      "possibleTraits": [
+        "memory",
+        "lineage"
+      ],
+      "abilitiesGranted": []
+    }
+  },
+  {
+    "id": "midewewin_lodge",
+    "name": "Midewewin Lodge",
+    "type": "society",
+    "category": "medicine_society",
+    "tags": [
+      "healing",
+      "secrecy",
+      "initiation"
+    ],
+    "description": "A sacred and secretive medicine society tasked with protecting and teaching the spiritual health of the people.",
+    "lore_importance": 4,
+    "game_uses": {
+      "encounterType": "ritual",
+      "possibleTraits": [
+        "resilience",
+        "truth"
+      ],
+      "abilitiesGranted": [
+        "heal",
+        "spirit_vision"
+      ]
+    }
+  },
+  {
+    "id": "waubunowin_lodge",
+    "name": "Waubunowin Lodge",
+    "type": "society",
+    "category": "medicine_society",
+    "tags": [
+      "healing",
+      "secrecy"
+    ],
+    "description": "A sacred society of spiritual insight and medicine practice.",
+    "lore_importance": 3,
+    "game_uses": {
+      "encounterType": "ritual",
+      "possibleTraits": [
+        "purification",
+        "insight"
+      ],
+      "abilitiesGranted": [
+        "spiritConnection"
+      ]
+    }
+  },
+  {
+    "id": "kikinoomaukae_assin",
+    "name": "Kikinoomaukae-assin",
+    "type": "thing",
+    "category": "sacred_object",
+    "tags": [
+      "teaching",
+      "stone",
+      "wisdom"
+    ],
+    "description": "Teaching rocks that preserve the knowledge of the elders.",
+    "lore_importance": 4,
+    "game_uses": {
+      "encounterType": "mentor",
+      "possibleTraits": [
+        "memory",
+        "learning"
+      ],
+      "abilitiesGranted": [
+        "ancestralKnowledge"
+      ]
+    }
+  },
+  {
+    "id": "pukawiss",
+    "name": "Pukawiss",
+    "type": "person",
+    "category": "legendary_helper",
+    "tags": [
+      "dance",
+      "performance",
+      "tradition"
+    ],
+    "description": "Second son of Winona who became a dancer and created the Hoop Dance.",
+    "lore_importance": 3,
+    "game_uses": {
+      "encounterType": "mentor",
+      "possibleTraits": [
+        "joy",
+        "expression"
+      ],
+      "abilitiesGranted": [
+        "dance",
+        "hoopDance"
+      ]
+    }
+  },
+  {
+    "id": "wauboozoo",
+    "name": "Wauboozoo / Cheeby-aubozho",
+    "type": "person",
+    "category": "legendary_helper",
+    "tags": [
+      "music",
+      "afterlife",
+      "rebirth"
+    ],
+    "description": "Third son of Winona who invented instruments and became ruler of the underworld.",
+    "lore_importance": 4,
+    "game_uses": {
+      "encounterType": "ritual",
+      "possibleTraits": [
+        "creativity",
+        "spirituality"
+      ],
+      "abilitiesGranted": [
+        "music",
+        "afterlifeGuidance"
+      ]
+    }
+  },
+  {
+    "id": "anamiewin",
+    "name": "Anamiewin",
+    "type": "thing",
+    "category": "spiritual_practice",
+    "tags": [
+      "chant",
+      "hunt",
+      "permission"
+    ],
+    "description": "A chant to ask the manitou for permission to hunt the next day.",
+    "lore_importance": 2,
+    "game_uses": {
+      "encounterType": "ritual",
+      "possibleTraits": [
+        "respect",
+        "humility"
+      ],
+      "abilitiesGranted": [
+        "huntBlessing"
+      ]
+    }
+  }
+]

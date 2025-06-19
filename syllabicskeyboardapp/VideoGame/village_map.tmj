@@ -1,0 +1,138 @@
+{ "compressionlevel":-1,
+ "height":10,
+ "infinite":false,
+ "layers":[
+        {
+         "data":[0, 0, 0, 0, 12, 12, 12, 12, 12, 12,
+            0, 0, 0, 10, 12, 12, 0, 12, 9, 12,
+            0, 0, 12, 12, 10, 12, 12, 12, 12, 12,
+            0, 0, 12, 12, 12, 12, 12, 8, 12, 12,
+            0, 0, 12, 12, 8, 12, 12, 12, 12, 10,
+            0, 10, 12, 12, 12, 12, 12, 12, 12, 12,
+            0, 12, 12, 8, 12, 12, 12, 8, 12, 12,
+            0, 12, 10, 12, 12, 12, 12, 12, 12, 12,
+            0, 12, 12, 0, 12, 8, 12, 0, 12, 12,
+            0, 12, 12, 12, 12, 12, 12, 12, 12, 0],
+         "height":10,
+         "id":1,
+         "name":"Ground",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":10,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "id":2,
+         "name":"Plants",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":10,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[3, 3, 3, 3, 0, 0, 0, 0, 0, 0,
+            3, 3, 3, 0, 0, 0, 14, 0, 9, 0,
+            3, 3, 0, 0, 0, 0, 0, 0, 0, 0,
+            3, 3, 0, 0, 0, 0, 0, 8, 0, 0,
+            3, 3, 0, 0, 0, 0, 0, 0, 0, 0,
+            3, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            3, 0, 0, 8, 0, 0, 0, 8, 0, 0,
+            3, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            3, 0, 0, 9, 0, 8, 0, 14, 0, 0,
+            3, 0, 0, 0, 0, 0, 0, 0, 0, 9],
+         "height":10,
+         "id":4,
+         "name":"Collision",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":10,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":5,
+         "name":"Entrances",
+         "objects":[
+                {
+                 "height":0,
+                 "id":1,
+                 "name":"entrance1",
+                 "polygon":[
+                        {
+                         "x":0,
+                         "y":0
+                        }, 
+                        {
+                         "x":-5.15464,
+                         "y":9.66495
+                        }, 
+                        {
+                         "x":5.31572,
+                         "y":9.50387
+                        }],
+                 "properties":[
+                        {
+                         "name":"destination",
+                         "type":"string",
+                         "value":"interiorWigwam1"
+                        }, 
+                        {
+                         "name":"type",
+                         "type":"string",
+                         "value":"transition"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":71.5206,
+                 "y":67.3325
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }],
+ "nextlayerid":7,
+ "nextobjectid":3,
+ "orientation":"orthogonal",
+ "renderorder":"right-down",
+ "tiledversion":"1.11.2",
+ "tileheight":16,
+ "tilesets":[
+        {
+         "columns":4,
+         "firstgid":1,
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/Downloads\/ChatGPT Image Jun 2, 2025 at 01_06_11 PM.png",
+         "imageheight":64,
+         "imagewidth":64,
+         "margin":0,
+         "name":"ChatGPT Image Jun 2, 2025 at 01_06_11 PM",
+         "spacing":0,
+         "tilecount":16,
+         "tileheight":16,
+         "tilewidth":16
+        }],
+ "tilewidth":16,
+ "type":"map",
+ "version":"1.10",
+ "width":10
+}

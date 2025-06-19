@@ -1,0 +1,946 @@
+[
+  {
+    "id": "kitchi_manitou",
+    "name": "Kitchi Manitou",
+    "type": "person",
+    "category": "creator_spirit",
+    "tags": [
+      "creation",
+      "great_spirit"
+    ],
+    "description": "The Great Spirit, supreme creator and spiritual force behind all things.",
+    "game_uses": {
+      "encounterType": "story",
+      "possibleTraits": [
+        "wisdom"
+      ],
+      "abilitiesGranted": []
+    }
+  },
+  {
+    "id": "nekahnee_bahnasike",
+    "name": "Nekahnee Bahnasike",
+    "type": "person",
+    "category": "leader_spirit",
+    "tags": [
+      "bird",
+      "leadership",
+      "women"
+    ],
+    "description": "Leader of the bird women, a powerful matriarchal spirit.",
+    "game_uses": {
+      "encounterType": "mentor",
+      "possibleTraits": [
+        "leadership",
+        "intuition"
+      ],
+      "abilitiesGranted": []
+    }
+  },
+  {
+    "id": "geezhigo_quae",
+    "name": "Geezhigo-Quae",
+    "type": "person",
+    "category": "sky_spirit",
+    "tags": [
+      "sky",
+      "creation",
+      "feminine"
+    ],
+    "description": "Sky Woman, associated with the heavens and origin of life.",
+    "game_uses": {
+      "encounterType": "story",
+      "possibleTraits": [
+        "insight",
+        "birth"
+      ],
+      "abilitiesGranted": []
+    }
+  },
+  {
+    "id": "muzzu_kummik_quae",
+    "name": "Muzzu-Kummik-Quae",
+    "type": "person",
+    "category": "earth_spirit",
+    "tags": [
+      "earth",
+      "mother",
+      "life"
+    ],
+    "description": "Mother Earth, who sustains all living beings.",
+    "game_uses": {
+      "encounterType": "mentor",
+      "possibleTraits": [
+        "nurturing",
+        "resilience"
+      ],
+      "abilitiesGranted": []
+    }
+  },
+  {
+    "id": "misshipeshu",
+    "name": "Misshipeshu",
+    "type": "person",
+    "category": "water_spirit",
+    "tags": [
+      "water",
+      "god",
+      "lake"
+    ],
+    "description": "The Water God, protector and terror of lakes and rivers.",
+    "game_uses": {
+      "encounterType": "challenge",
+      "possibleTraits": [
+        "fear",
+        "courage"
+      ],
+      "abilitiesGranted": [
+        "waterTravel"
+      ]
+    }
+  },
+  {
+    "id": "manitou_namiege",
+    "name": "Manitou Namiege",
+    "type": "person",
+    "category": "spirit",
+    "tags": [
+      "water",
+      "spirit"
+    ],
+    "description": "A water spirit associated with natural forces and ceremonies.",
+    "game_uses": {
+      "encounterType": "ritual",
+      "possibleTraits": [
+        "respect",
+        "calm"
+      ],
+      "abilitiesGranted": []
+    }
+  },
+  {
+    "id": "windigo",
+    "name": "Windigo",
+    "type": "person",
+    "category": "evil_entity",
+    "tags": [
+      "winter",
+      "evil",
+      "starvation"
+    ],
+    "description": "Evil spirit of starvation, madness, and winter terror.",
+    "game_uses": {
+      "encounterType": "enemy",
+      "possibleTraits": [
+        "fear",
+        "strength"
+      ],
+      "abilitiesGranted": []
+    }
+  },
+  {
+    "id": "kitchinikkoo_missahba",
+    "name": "Kitchinikkoo / Missahba",
+    "type": "person",
+    "category": "giant_helper",
+    "tags": [
+      "goose",
+      "giant",
+      "warrior"
+    ],
+    "description": "Big Goose who turns into a giant named Missahba to fight the Windigo.",
+    "game_uses": {
+      "encounterType": "challenge",
+      "possibleTraits": [
+        "strength",
+        "bravery"
+      ],
+      "abilitiesGranted": [
+        "giantForm"
+      ]
+    }
+  },
+  {
+    "id": "matchi_auwishuk",
+    "name": "Matchi-auwishuk",
+    "type": "person",
+    "category": "evil_entity",
+    "tags": [
+      "evil"
+    ],
+    "description": "Evil ones who serve darkness and imbalance.",
+    "game_uses": {
+      "encounterType": "enemy",
+      "possibleTraits": [
+        "resistance"
+      ],
+      "abilitiesGranted": []
+    }
+  },
+  {
+    "id": "paakuk",
+    "name": "Paakuk",
+    "type": "person",
+    "category": "cursed_entity",
+    "tags": [
+      "skeleton",
+      "murder",
+      "punishment"
+    ],
+    "description": "Committed the first murder and must live as a skeleton for eternity.",
+    "game_uses": {
+      "encounterType": "ghost",
+      "possibleTraits": [
+        "judgment",
+        "remorse"
+      ],
+      "abilitiesGranted": []
+    }
+  },
+  {
+    "id": "maymaygwaysiwuk",
+    "name": "Maymaygwaysiwuk",
+    "type": "person",
+    "category": "water_being",
+    "tags": [
+      "water",
+      "spirit",
+      "furry"
+    ],
+    "description": "Mysterious water beings with furry babies.",
+    "game_uses": {
+      "encounterType": "ritual",
+      "possibleTraits": [
+        "curiosity",
+        "respect"
+      ],
+      "abilitiesGranted": []
+    }
+  },
+  {
+    "id": "arrow_of_bemookawin",
+    "name": "Arrow of Bemookawin",
+    "type": "thing",
+    "category": "cursed_object",
+    "tags": [
+      "weapon",
+      "curse",
+      "sickness"
+    ],
+    "description": "Created by the seven evil conjurors, it kills by making one sick.",
+    "game_uses": {
+      "encounterType": "item",
+      "possibleTraits": [
+        "danger",
+        "protection"
+      ],
+      "abilitiesGranted": [
+        "poison"
+      ]
+    }
+  },
+  {
+    "id": "wakan_tanka",
+    "name": "Wakan Tanka",
+    "type": "person",
+    "category": "creator_spirit",
+    "tags": [
+      "great_spirit",
+      "western"
+    ],
+    "description": "The name for the Great Spirit in the West.",
+    "game_uses": {
+      "encounterType": "story",
+      "possibleTraits": [
+        "reverence"
+      ],
+      "abilitiesGranted": []
+    }
+  },
+  {
+    "id": "kitchi_onahgumming",
+    "name": "Kitchi'onahgumming",
+    "type": "place",
+    "category": "village",
+    "tags": [
+      "shadow_people",
+      "feast",
+      "canoes"
+    ],
+    "description": "A great longhouse village where shadow people emerge at night to feast on mushrooms.",
+    "game_uses": {
+      "encounterType": "location",
+      "possibleTraits": [
+        "caution",
+        "mystery"
+      ],
+      "abilitiesGranted": []
+    }
+  },
+  {
+    "id": "okeezhikokah_eninnewuk",
+    "name": "Okeezhikokah Eninnewuk",
+    "type": "person",
+    "category": "spirit_group",
+    "tags": [
+      "heaven",
+      "ancestral"
+    ],
+    "description": "The Heaven People who dwell beyond physical sight.",
+    "game_uses": {
+      "encounterType": "story",
+      "possibleTraits": [
+        "vision",
+        "spirituality"
+      ],
+      "abilitiesGranted": []
+    }
+  },
+  {
+    "id": "wahbeenowin",
+    "name": "Wahbeenowin",
+    "type": "society",
+    "category": "vision_society",
+    "tags": [
+      "vision",
+      "heaven",
+      "initiation"
+    ],
+    "description": "A vision society connected to the Heaven People, guiding spiritual seekers.",
+    "game_uses": {
+      "encounterType": "ritual",
+      "possibleTraits": [
+        "clarity",
+        "prophecy"
+      ],
+      "abilitiesGranted": [
+        "spiritVision"
+      ]
+    }
+  },
+  {
+    "id": "maude_kawiss",
+    "name": "Maude-Kawiss",
+    "type": "person",
+    "category": "ancestor",
+    "tags": [
+      "bear",
+      "history",
+      "wampum"
+    ],
+    "description": "First son of Winona and Ae-pungishimook, gifted the Wampum Belt by the Bear Nation.",
+    "game_uses": {
+      "encounterType": "story",
+      "possibleTraits": [
+        "memory",
+        "lineage"
+      ],
+      "abilitiesGranted": []
+    }
+  },
+  {
+    "id": "midewewin_lodge",
+    "name": "Midewewin Lodge",
+    "type": "society",
+    "category": "medicine_society",
+    "tags": [
+      "healing",
+      "secrecy",
+      "initiation"
+    ],
+    "description": "A sacred and secretive medicine society tasked with protecting and teaching the spiritual health of the people.",
+    "game_uses": {
+      "encounterType": "ritual",
+      "possibleTraits": [
+        "resilience",
+        "truth"
+      ],
+      "abilitiesGranted": [
+        "heal",
+        "spirit_vision"
+      ]
+    }
+  },
+  {
+    "id": "waubunowin_lodge",
+    "name": "Waubunowin Lodge",
+    "type": "society",
+    "category": "medicine_society",
+    "tags": [
+      "healing",
+      "secrecy"
+    ],
+    "description": "A sacred society of spiritual insight and medicine practice.",
+    "game_uses": {
+      "encounterType": "ritual",
+      "possibleTraits": [
+        "purification",
+        "insight"
+      ],
+      "abilitiesGranted": [
+        "spiritConnection"
+      ]
+    }
+  },
+  {
+    "id": "kikinoomaukae_assin",
+    "name": "Kikinoomaukae-assin",
+    "type": "thing",
+    "category": "sacred_object",
+    "tags": [
+      "teaching",
+      "stone",
+      "wisdom"
+    ],
+    "description": "Teaching rocks that preserve the knowledge of the elders.",
+    "game_uses": {
+      "encounterType": "mentor",
+      "possibleTraits": [
+        "memory",
+        "learning"
+      ],
+      "abilitiesGranted": [
+        "ancestralKnowledge"
+      ]
+    }
+  },
+  {
+    "id": "pukawiss",
+    "name": "Pukawiss",
+    "type": "person",
+    "category": "legendary_helper",
+    "tags": [
+      "dance",
+      "performance",
+      "tradition"
+    ],
+    "description": "Second son of Winona who became a dancer and created the Hoop Dance.",
+    "game_uses": {
+      "encounterType": "mentor",
+      "possibleTraits": [
+        "joy",
+        "expression"
+      ],
+      "abilitiesGranted": [
+        "dance",
+        "hoopDance"
+      ]
+    }
+  },
+  {
+    "id": "wauboozoo",
+    "name": "Wauboozoo / Cheeby-aubozho",
+    "type": "person",
+    "category": "legendary_helper",
+    "tags": [
+      "music",
+      "afterlife",
+      "rebirth"
+    ],
+    "description": "Third son of Winona who invented instruments and became ruler of the underworld.",
+    "game_uses": {
+      "encounterType": "ritual",
+      "possibleTraits": [
+        "creativity",
+        "spirituality"
+      ],
+      "abilitiesGranted": [
+        "music",
+        "afterlifeGuidance"
+      ]
+    }
+  },
+  {
+    "id": "anamiewin",
+    "name": "Anamiewin",
+    "type": "thing",
+    "category": "spiritual_practice",
+    "tags": [
+      "chant",
+      "hunt",
+      "permission"
+    ],
+    "description": "A chant to ask the manitou for permission to hunt the next day.",
+    "game_uses": {
+      "encounterType": "ritual",
+      "possibleTraits": [
+        "respect",
+        "humility"
+      ],
+      "abilitiesGranted": [
+        "huntBlessing"
+      ]
+    }
+  },
+  {
+    "id": "nanabozho",
+    "name": "ááá³á (Nanabozho)",
+    "type": "person",
+    "category": "legendary_helper",
+    "tags": [
+      "trickster",
+      "creation",
+      "teaching",
+      "transformation",
+      "humor"
+    ],
+    "description": "A central culture hero and trickster figure who shaped the world, taught the people, and walked between the spiritual and physical realms. Often humorous, sometimes chaotic, always meaningful.",
+    "game_uses": {
+      "encounterType": "mentor",
+      "possibleTraits": [
+        "cleverness",
+        "adaptability",
+        "humor"
+      ],
+      "abilitiesGranted": [
+        "shapeshift",
+        "storytelling"
+      ]
+    }
+  },
+  {
+    "id": "lynx",
+    "name": "Lynx",
+    "type": "person",
+    "category": "animal_spirit",
+    "tags": [
+      "watcher",
+      "silence",
+      "guardian"
+    ],
+    "description": "Silent guardian of the forest, the Lynx sees what others miss and keeps the secrets of the land.",
+    "game_uses": {
+      "encounterType": "mentor",
+      "possibleTraits": [
+        "stealth",
+        "perception"
+      ],
+      "abilitiesGranted": [
+        "seeHidden"
+      ]
+    }
+  },
+  {
+    "id": "bear",
+    "name": "Bear",
+    "type": "person",
+    "category": "animal_spirit",
+    "tags": [
+      "strength",
+      "healing",
+      "clan"
+    ],
+    "description": "A powerful spirit of strength and healing, Bear teaches resilience, introspection, and protection.",
+    "game_uses": {
+      "encounterType": "story",
+      "possibleTraits": [
+        "resilience",
+        "bravery"
+      ],
+      "abilitiesGranted": [
+        "heal",
+        "strengthBoost"
+      ]
+    }
+  },
+  {
+    "id": "blue_heron",
+    "name": "Blue Heron",
+    "type": "person",
+    "category": "animal_spirit",
+    "tags": [
+      "grace",
+      "balance",
+      "water"
+    ],
+    "description": "A graceful water spirit who teaches balance, independence, and the power of solitude.",
+    "game_uses": {
+      "encounterType": "mentor",
+      "possibleTraits": [
+        "elegance",
+        "focus"
+      ],
+      "abilitiesGranted": [
+        "balance"
+      ]
+    }
+  },
+  {
+    "id": "eagle",
+    "name": "Eagle",
+    "type": "person",
+    "category": "animal_spirit",
+    "tags": [
+      "vision",
+      "sky",
+      "spirit"
+    ],
+    "description": "Messenger of the Creator, the Eagle flies closest to the spirit world and brings clarity and wisdom.",
+    "game_uses": {
+      "encounterType": "ritual",
+      "possibleTraits": [
+        "vision",
+        "honor"
+      ],
+      "abilitiesGranted": [
+        "spiritFlight"
+      ]
+    }
+  },
+  {
+    "id": "rabbit",
+    "name": "Rabbit",
+    "type": "person",
+    "category": "animal_spirit",
+    "tags": [
+      "cleverness",
+      "speed",
+      "trickster"
+    ],
+    "description": "A quick and clever being, Rabbit teaches survival through wit and adaptability.",
+    "game_uses": {
+      "encounterType": "challenge",
+      "possibleTraits": [
+        "humor",
+        "resourcefulness"
+      ],
+      "abilitiesGranted": [
+        "quickEscape"
+      ]
+    }
+  },
+  {
+    "id": "elk",
+    "name": "Elk",
+    "type": "person",
+    "category": "animal_spirit",
+    "tags": [
+      "grace",
+      "endurance",
+      "nobility"
+    ],
+    "description": "Symbol of nobility and long journeys, the Elk represents spiritual stamina and integrity.",
+    "game_uses": {
+      "encounterType": "mentor",
+      "possibleTraits": [
+        "grace",
+        "endurance"
+      ],
+      "abilitiesGranted": [
+        "longTravel"
+      ]
+    }
+  },
+  {
+    "id": "binesi",
+    "name": "Binesi",
+    "type": "person",
+    "category": "sky_spirit",
+    "tags": [
+      "bird",
+      "thunder",
+      "flight"
+    ],
+    "description": "A great spirit bird whose wings stir the winds. Sometimes a helper, sometimes a challenger.",
+    "game_uses": {
+      "encounterType": "story",
+      "possibleTraits": [
+        "power",
+        "mystery"
+      ],
+      "abilitiesGranted": [
+        "stormCall"
+      ]
+    }
+  },
+  {
+    "id": "turtle",
+    "name": "Turtle",
+    "type": "person",
+    "category": "animal_spirit",
+    "tags": [
+      "earth",
+      "wisdom",
+      "creation"
+    ],
+    "description": "Carrier of the land in many creation stories, Turtle is steady, wise, and deeply connected to the earth.",
+    "game_uses": {
+      "encounterType": "mentor",
+      "possibleTraits": [
+        "patience",
+        "groundedness"
+      ],
+      "abilitiesGranted": [
+        "earthShield"
+      ]
+    }
+  },
+  {
+    "id": "raccoon",
+    "name": "Raccoon",
+    "type": "person",
+    "category": "animal_spirit",
+    "tags": [
+      "clever",
+      "hands",
+      "problem-solving"
+    ],
+    "description": "Raccoon is a curious and crafty being, good with its hands and skilled in solving problems others canât.",
+    "game_uses": {
+      "encounterType": "challenge",
+      "possibleTraits": [
+        "curiosity",
+        "cunning"
+      ],
+      "abilitiesGranted": [
+        "craftTool"
+      ]
+    }
+  },
+  {
+    "id": "tatanka",
+    "name": "Tatanka",
+    "type": "person",
+    "category": "animal_spirit",
+    "tags": [
+      "buffalo",
+      "abundance",
+      "sacrifice"
+    ],
+    "description": "Buffalo spirit who provides everything needed for life. A symbol of abundance, survival, and sacred giving.",
+    "game_uses": {
+      "encounterType": "ritual",
+      "possibleTraits": [
+        "generosity",
+        "sacrifice"
+      ],
+      "abilitiesGranted": [
+        "abundance"
+      ]
+    }
+  },
+  {
+    "id": "makwa_nowii",
+    "name": "Makwa Nowii",
+    "type": "person",
+    "category": "animal_spirit",
+    "tags": [
+      "bear",
+      "guide",
+      "shadow"
+    ],
+    "description": "A powerful bear spirit known to guide souls through the spirit world and protect against unseen dangers.",
+    "game_uses": {
+      "encounterType": "ritual",
+      "possibleTraits": [
+        "protection",
+        "intuition"
+      ],
+      "abilitiesGranted": [
+        "spiritGuide"
+      ]
+    }
+  },
+  {
+    "id": "nibiinaabe",
+    "name": "Nibiinaabe",
+    "type": "person",
+    "category": "water_being",
+    "tags": [
+      "water",
+      "spirit",
+      "ceremony"
+    ],
+    "description": "Mysterious water spirits who dwell in sacred lakes and rivers, known to offer wisdom and healing.",
+    "game_uses": {
+      "encounterType": "ritual",
+      "possibleTraits": [
+        "respect",
+        "fluidity"
+      ],
+      "abilitiesGranted": [
+        "waterWisdom"
+      ]
+    }
+  },
+  {
+    "id": "paissa",
+    "name": "Paissa",
+    "type": "person",
+    "category": "little_people",
+    "tags": [
+      "forest",
+      "mischief",
+      "hidden"
+    ],
+    "description": "Tiny forest dwellers who play tricks on those who disrespect nature, but may assist the respectful with secret gifts.",
+    "game_uses": {
+      "encounterType": "challenge",
+      "possibleTraits": [
+        "luck",
+        "caution"
+      ],
+      "abilitiesGranted": [
+        "findHiddenPath"
+      ]
+    }
+  },
+  {
+    "id": "mji_mnito",
+    "name": "Mji-mnito",
+    "type": "person",
+    "category": "serpent_spirit",
+    "tags": [
+      "horned",
+      "serpent",
+      "power",
+      "river"
+    ],
+    "description": "The horned serpent of deep waters. Feared and revered, it embodies sacred power and destructive force.",
+    "game_uses": {
+      "encounterType": "challenge",
+      "possibleTraits": [
+        "fear",
+        "respect"
+      ],
+      "abilitiesGranted": [
+        "stormWrath"
+      ]
+    }
+  },
+  {
+    "id": "chequa",
+    "name": "Chequa (Cigwe)",
+    "type": "person",
+    "category": "sky_spirit",
+    "tags": [
+      "thunderbird",
+      "storm",
+      "sky"
+    ],
+    "description": "The Thunderbird, a great sky spirit who controls the weather and punishes evil with bolts of lightning.",
+    "game_uses": {
+      "encounterType": "ritual",
+      "possibleTraits": [
+        "awe",
+        "judgment"
+      ],
+      "abilitiesGranted": [
+        "lightningStrike"
+      ]
+    }
+  },
+  {
+    "id": "star_people",
+    "name": "The Star People",
+    "type": "person",
+    "category": "spirit_group",
+    "tags": [
+      "sky",
+      "light",
+      "guides"
+    ],
+    "description": "Beings from the stars who visit in dreams and visions, offering insight and guidance to the worthy.",
+    "game_uses": {
+      "encounterType": "story",
+      "possibleTraits": [
+        "clarity",
+        "destiny"
+      ],
+      "abilitiesGranted": [
+        "starVision"
+      ]
+    }
+  },
+  {
+    "id": "waoniska",
+    "name": "Waoniska",
+    "type": "person",
+    "category": "dream_spirit",
+    "tags": [
+      "dream",
+      "spirit",
+      "night"
+    ],
+    "description": "A nocturnal spirit who walks between dreams, revealing hidden truths and protecting sleeping minds.",
+    "game_uses": {
+      "encounterType": "ritual",
+      "possibleTraits": [
+        "intuition",
+        "insight"
+      ],
+      "abilitiesGranted": [
+        "dreamWatch"
+      ]
+    }
+  },
+  {
+    "id": "napi",
+    "name": "Napi",
+    "type": "person",
+    "category": "trickster",
+    "tags": [
+      "trickster",
+      "teacher",
+      "chaos",
+      "creation"
+    ],
+    "description": "A cultural hero and trickster from the west. Napi is both foolish and wise, bringing lessons through absurdity and reversal.",
+    "game_uses": {
+      "encounterType": "story",
+      "possibleTraits": [
+        "wit",
+        "change"
+      ],
+      "abilitiesGranted": [
+        "reverseFortune"
+      ]
+    }
+  },
+  {
+    "id": "nenapohs",
+    "name": "Nenapohs",
+    "type": "person",
+    "category": "legendary_helper",
+    "tags": [
+      "trickster",
+      "helper",
+      "transformer"
+    ],
+    "description": "Another name for Nanabozho, Nenapohs is a shape-shifter, teacher, and culture-bringer who bridges the human and spirit worlds.",
+    "game_uses": {
+      "encounterType": "mentor",
+      "possibleTraits": [
+        "creativity",
+        "surprise"
+      ],
+      "abilitiesGranted": [
+        "shapeshift",
+        "storyMagic"
+      ]
+    }
+  },
+  {
+    "id": "enigorio",
+    "name": "Enigorio",
+    "type": "person",
+    "category": "ancestor",
+    "tags": [
+      "trickster",
+      "helper",
+      "transformer"
+    ],
+    "description": "Another name for Nanabozho, Nenapohs is a shape-shifter, teacher, and culture-bringer who bridges the human and spirit worlds.",
+    "game_uses": {
+      "encounterType": "mentor",
+      "possibleTraits": [
+        "creativity",
+        "surprise"
+      ],
+      "abilitiesGranted": [
+        "shapeshift",
+        "storyMagic"
+      ]
+    }
+  }
+]

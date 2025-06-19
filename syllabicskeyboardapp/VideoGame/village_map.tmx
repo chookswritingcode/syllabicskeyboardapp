@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="10" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="3">
+ <editorsettings>
+  <export target="village_map.json" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" name="ChatGPT Image Jun 2, 2025 at 01_06_11 PM" tilewidth="16" tileheight="16" tilecount="16" columns="4">
+  <image source="ChatGPT Image Jun 2, 2025 at 01_06_11 PM.png" width="64" height="64"/>
+ </tileset>
+ <layer id="1" name="Ground" width="10" height="10">
+  <data encoding="csv">
+3,3,3,3,3,10,12,0,0,0,
+3,3,3,3,10,10,12,12,0,0,
+3,3,3,10,10,12,12,12,12,0,
+3,3,10,10,12,12,8,12,8,12,
+3,10,10,12,8,12,12,12,12,12,
+3,10,12,12,12,6,2,12,8,12,
+3,10,12,8,12,2,6,12,12,12,
+3,10,12,12,12,12,12,8,12,12,
+3,10,12,8,12,8,12,12,0,12,
+12,10,12,12,12,12,12,12,12,12
+</data>
+ </layer>
+ <layer id="4" name="Collision" width="10" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,13,13,13,
+0,0,0,0,0,0,0,0,13,13,
+0,0,0,0,0,0,0,0,0,13,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,13,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="5" name="Entrances">
+  <object id="1" name="entrance1" x="71.5206" y="67.3325">
+   <properties>
+    <property name="destination" value="interiorWigwam1"/>
+    <property name="type" value="transition"/>
+   </properties>
+   <polygon points="0,0 -5.15464,9.66495 5.31572,9.50387"/>
+  </object>
+ </objectgroup>
+</map>

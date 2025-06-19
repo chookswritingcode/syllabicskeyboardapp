@@ -1,0 +1,880 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		868EC0422DCD2B7D003C438B /* GentiumPlus-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 868EC0412DCD2B7D003C438B /* GentiumPlus-Regular.ttf */; };
+		868EC0432DCD2B7D003C438B /* GentiumPlus-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 868EC0412DCD2B7D003C438B /* GentiumPlus-Regular.ttf */; };
+		868EC0462DCD2CB1003C438B /* GentiumKaktovik.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 868EC0452DCD2CB1003C438B /* GentiumKaktovik.ttf */; };
+		868EC0472DCD2CB1003C438B /* GentiumKaktovik.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 868EC0452DCD2CB1003C438B /* GentiumKaktovik.ttf */; };
+		868EC07A2DCE3160003C438B /* NotoSansSymbols2-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 868EC0792DCE3160003C438B /* NotoSansSymbols2-Regular.ttf */; };
+		868EC07B2DCE3160003C438B /* NotoSansSymbols2-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 868EC0792DCE3160003C438B /* NotoSansSymbols2-Regular.ttf */; };
+		86A5DC682D9DE87E00EF9060 /* Bodewadmiiwiibiian.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 86A5DC612D9DE87D00EF9060 /* Bodewadmiiwiibiian.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		86CAAB672DE670D200D64FA3 /* MoonKit in Frameworks */ = {isa = PBXBuildFile; productRef = 86CAAB662DE670D200D64FA3 /* MoonKit */; };
+		86CAAB862DE8AE7D00D64FA3 /* SunKit in Frameworks */ = {isa = PBXBuildFile; productRef = 86CAAB852DE8AE7D00D64FA3 /* SunKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86A5DC402D9DE4B800EF9060 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86A5DC232D9DE4B500EF9060 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86A5DC2A2D9DE4B500EF9060;
+			remoteInfo = syllabicskeyboardapp;
+		};
+		86A5DC4A2D9DE4B800EF9060 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86A5DC232D9DE4B500EF9060 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86A5DC2A2D9DE4B500EF9060;
+			remoteInfo = syllabicskeyboardapp;
+		};
+		86A5DC662D9DE87E00EF9060 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86A5DC232D9DE4B500EF9060 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86A5DC602D9DE87D00EF9060;
+			remoteInfo = Bodewadmiiwiibiian;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		86A5DC6D2D9DE87E00EF9060 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				86A5DC682D9DE87E00EF9060 /* Bodewadmiiwiibiian.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		868EC0412DCD2B7D003C438B /* GentiumPlus-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GentiumPlus-Regular.ttf"; sourceTree = "<group>"; };
+		868EC0442DCD2CB1003C438B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file; name = Base; path = Base.lproj/GentiumKaktovik.ttf; sourceTree = "<group>"; };
+		868EC0482DCD2CB3003C438B /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/GentiumKaktovik.ttf; sourceTree = "<group>"; };
+		868EC0792DCE3160003C438B /* NotoSansSymbols2-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansSymbols2-Regular.ttf"; sourceTree = "<group>"; };
+		86A5DC2B2D9DE4B500EF9060 /* syllabicskeyboardapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = syllabicskeyboardapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86A5DC3F2D9DE4B800EF9060 /* syllabicskeyboardappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = syllabicskeyboardappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86A5DC492D9DE4B800EF9060 /* syllabicskeyboardappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = syllabicskeyboardappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86A5DC612D9DE87D00EF9060 /* Bodewadmiiwiibiian.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Bodewadmiiwiibiian.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		86A5DC512D9DE4B800EF9060 /* Exceptions for "syllabicskeyboardapp" folder in "syllabicskeyboardapp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 86A5DC2A2D9DE4B500EF9060 /* syllabicskeyboardapp */;
+		};
+		86A5DC6C2D9DE87E00EF9060 /* Exceptions for "Bodewadmiiwiibiian" folder in "Bodewadmiiwiibiian" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 86A5DC602D9DE87D00EF9060 /* Bodewadmiiwiibiian */;
+		};
+		86CAAB762DE78C4B00D64FA3 /* Exceptions for "syllabicskeyboardapp" folder in "syllabicskeyboardappTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"/Localized: Mythology/updated_potawatomi_mythology.json",
+			);
+			target = 86A5DC3E2D9DE4B800EF9060 /* syllabicskeyboardappTests */;
+		};
+		86CAAB772DE78C4B00D64FA3 /* Exceptions for "syllabicskeyboardapp" folder in "syllabicskeyboardappUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"/Localized: Mythology/updated_potawatomi_mythology.json",
+			);
+			target = 86A5DC482D9DE4B800EF9060 /* syllabicskeyboardappUITests */;
+		};
+		86CAAB782DE78C4B00D64FA3 /* Exceptions for "syllabicskeyboardapp" folder in "Bodewadmiiwiibiian" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"/Localized: Mythology/updated_potawatomi_mythology.json",
+			);
+			target = 86A5DC602D9DE87D00EF9060 /* Bodewadmiiwiibiian */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		86A5DC2D2D9DE4B500EF9060 /* syllabicskeyboardapp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				86A5DC512D9DE4B800EF9060 /* Exceptions for "syllabicskeyboardapp" folder in "syllabicskeyboardapp" target */,
+				86CAAB762DE78C4B00D64FA3 /* Exceptions for "syllabicskeyboardapp" folder in "syllabicskeyboardappTests" target */,
+				86CAAB772DE78C4B00D64FA3 /* Exceptions for "syllabicskeyboardapp" folder in "syllabicskeyboardappUITests" target */,
+				86CAAB782DE78C4B00D64FA3 /* Exceptions for "syllabicskeyboardapp" folder in "Bodewadmiiwiibiian" target */,
+			);
+			path = syllabicskeyboardapp;
+			sourceTree = "<group>";
+		};
+		86A5DC422D9DE4B800EF9060 /* syllabicskeyboardappTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = syllabicskeyboardappTests;
+			sourceTree = "<group>";
+		};
+		86A5DC4C2D9DE4B800EF9060 /* syllabicskeyboardappUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = syllabicskeyboardappUITests;
+			sourceTree = "<group>";
+		};
+		86A5DC622D9DE87D00EF9060 /* Bodewadmiiwiibiian */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				86A5DC6C2D9DE87E00EF9060 /* Exceptions for "Bodewadmiiwiibiian" folder in "Bodewadmiiwiibiian" target */,
+			);
+			path = Bodewadmiiwiibiian;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86A5DC282D9DE4B500EF9060 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86CAAB862DE8AE7D00D64FA3 /* SunKit in Frameworks */,
+				86CAAB672DE670D200D64FA3 /* MoonKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86A5DC3C2D9DE4B800EF9060 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86A5DC462D9DE4B800EF9060 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86A5DC5E2D9DE87D00EF9060 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86A5DC222D9DE4B500EF9060 = {
+			isa = PBXGroup;
+			children = (
+				86A5DC2D2D9DE4B500EF9060 /* syllabicskeyboardapp */,
+				86A5DC422D9DE4B800EF9060 /* syllabicskeyboardappTests */,
+				86A5DC4C2D9DE4B800EF9060 /* syllabicskeyboardappUITests */,
+				86A5DC622D9DE87D00EF9060 /* Bodewadmiiwiibiian */,
+				86A5DC2C2D9DE4B500EF9060 /* Products */,
+				868EC0452DCD2CB1003C438B /* GentiumKaktovik.ttf */,
+				868EC0792DCE3160003C438B /* NotoSansSymbols2-Regular.ttf */,
+				86CAAB842DE8AE7D00D64FA3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		86A5DC2C2D9DE4B500EF9060 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86A5DC2B2D9DE4B500EF9060 /* syllabicskeyboardapp.app */,
+				86A5DC3F2D9DE4B800EF9060 /* syllabicskeyboardappTests.xctest */,
+				86A5DC492D9DE4B800EF9060 /* syllabicskeyboardappUITests.xctest */,
+				86A5DC612D9DE87D00EF9060 /* Bodewadmiiwiibiian.appex */,
+				868EC0412DCD2B7D003C438B /* GentiumPlus-Regular.ttf */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86CAAB842DE8AE7D00D64FA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86A5DC2A2D9DE4B500EF9060 /* syllabicskeyboardapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86A5DC522D9DE4B800EF9060 /* Build configuration list for PBXNativeTarget "syllabicskeyboardapp" */;
+			buildPhases = (
+				86A5DC272D9DE4B500EF9060 /* Sources */,
+				86A5DC282D9DE4B500EF9060 /* Frameworks */,
+				86A5DC292D9DE4B500EF9060 /* Resources */,
+				86A5DC6D2D9DE87E00EF9060 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86A5DC672D9DE87E00EF9060 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				86A5DC2D2D9DE4B500EF9060 /* syllabicskeyboardapp */,
+			);
+			name = syllabicskeyboardapp;
+			packageProductDependencies = (
+				86CAAB662DE670D200D64FA3 /* MoonKit */,
+				86CAAB852DE8AE7D00D64FA3 /* SunKit */,
+			);
+			productName = syllabicskeyboardapp;
+			productReference = 86A5DC2B2D9DE4B500EF9060 /* syllabicskeyboardapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		86A5DC3E2D9DE4B800EF9060 /* syllabicskeyboardappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86A5DC572D9DE4B800EF9060 /* Build configuration list for PBXNativeTarget "syllabicskeyboardappTests" */;
+			buildPhases = (
+				86A5DC3B2D9DE4B800EF9060 /* Sources */,
+				86A5DC3C2D9DE4B800EF9060 /* Frameworks */,
+				86A5DC3D2D9DE4B800EF9060 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86A5DC412D9DE4B800EF9060 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				86A5DC422D9DE4B800EF9060 /* syllabicskeyboardappTests */,
+			);
+			name = syllabicskeyboardappTests;
+			packageProductDependencies = (
+			);
+			productName = syllabicskeyboardappTests;
+			productReference = 86A5DC3F2D9DE4B800EF9060 /* syllabicskeyboardappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		86A5DC482D9DE4B800EF9060 /* syllabicskeyboardappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86A5DC5A2D9DE4B800EF9060 /* Build configuration list for PBXNativeTarget "syllabicskeyboardappUITests" */;
+			buildPhases = (
+				86A5DC452D9DE4B800EF9060 /* Sources */,
+				86A5DC462D9DE4B800EF9060 /* Frameworks */,
+				86A5DC472D9DE4B800EF9060 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86A5DC4B2D9DE4B800EF9060 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				86A5DC4C2D9DE4B800EF9060 /* syllabicskeyboardappUITests */,
+			);
+			name = syllabicskeyboardappUITests;
+			packageProductDependencies = (
+			);
+			productName = syllabicskeyboardappUITests;
+			productReference = 86A5DC492D9DE4B800EF9060 /* syllabicskeyboardappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		86A5DC602D9DE87D00EF9060 /* Bodewadmiiwiibiian */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86A5DC692D9DE87E00EF9060 /* Build configuration list for PBXNativeTarget "Bodewadmiiwiibiian" */;
+			buildPhases = (
+				86A5DC5D2D9DE87D00EF9060 /* Sources */,
+				86A5DC5E2D9DE87D00EF9060 /* Frameworks */,
+				86A5DC5F2D9DE87D00EF9060 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				86A5DC622D9DE87D00EF9060 /* Bodewadmiiwiibiian */,
+			);
+			name = Bodewadmiiwiibiian;
+			packageProductDependencies = (
+			);
+			productName = Bodewadmiiwiibiian;
+			productReference = 86A5DC612D9DE87D00EF9060 /* Bodewadmiiwiibiian.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86A5DC232D9DE4B500EF9060 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					86A5DC2A2D9DE4B500EF9060 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					86A5DC3E2D9DE4B800EF9060 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 86A5DC2A2D9DE4B500EF9060;
+					};
+					86A5DC482D9DE4B800EF9060 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 86A5DC2A2D9DE4B500EF9060;
+					};
+					86A5DC602D9DE87D00EF9060 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 86A5DC262D9DE4B500EF9060 /* Build configuration list for PBXProject "syllabicskeyboardapp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86A5DC222D9DE4B500EF9060;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				86CAAB652DE670D200D64FA3 /* XCRemoteSwiftPackageReference "MoonKit" */,
+				86CAAB682DE6711300D64FA3 /* XCRemoteSwiftPackageReference "SunKit" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 86A5DC2C2D9DE4B500EF9060 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86A5DC2A2D9DE4B500EF9060 /* syllabicskeyboardapp */,
+				86A5DC3E2D9DE4B800EF9060 /* syllabicskeyboardappTests */,
+				86A5DC482D9DE4B800EF9060 /* syllabicskeyboardappUITests */,
+				86A5DC602D9DE87D00EF9060 /* Bodewadmiiwiibiian */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86A5DC292D9DE4B500EF9060 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				868EC0462DCD2CB1003C438B /* GentiumKaktovik.ttf in Resources */,
+				868EC07A2DCE3160003C438B /* NotoSansSymbols2-Regular.ttf in Resources */,
+				868EC0432DCD2B7D003C438B /* GentiumPlus-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86A5DC3D2D9DE4B800EF9060 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86A5DC472D9DE4B800EF9060 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86A5DC5F2D9DE87D00EF9060 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				868EC0472DCD2CB1003C438B /* GentiumKaktovik.ttf in Resources */,
+				868EC07B2DCE3160003C438B /* NotoSansSymbols2-Regular.ttf in Resources */,
+				868EC0422DCD2B7D003C438B /* GentiumPlus-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86A5DC272D9DE4B500EF9060 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86A5DC3B2D9DE4B800EF9060 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86A5DC452D9DE4B800EF9060 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86A5DC5D2D9DE87D00EF9060 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86A5DC412D9DE4B800EF9060 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86A5DC2A2D9DE4B500EF9060 /* syllabicskeyboardapp */;
+			targetProxy = 86A5DC402D9DE4B800EF9060 /* PBXContainerItemProxy */;
+		};
+		86A5DC4B2D9DE4B800EF9060 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86A5DC2A2D9DE4B500EF9060 /* syllabicskeyboardapp */;
+			targetProxy = 86A5DC4A2D9DE4B800EF9060 /* PBXContainerItemProxy */;
+		};
+		86A5DC672D9DE87E00EF9060 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86A5DC602D9DE87D00EF9060 /* Bodewadmiiwiibiian */;
+			targetProxy = 86A5DC662D9DE87E00EF9060 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		868EC0452DCD2CB1003C438B /* GentiumKaktovik.ttf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				868EC0442DCD2CB1003C438B /* Base */,
+				868EC0482DCD2CB3003C438B /* en */,
+			);
+			name = GentiumKaktovik.ttf;
+			path = "/Users/carterdavidson/Library/Mobile Documents/com~apple~CloudDocs/Ancestors/keyboardapp/syllabicskeyboardapp";
+			sourceTree = "<absolute>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86A5DC532D9DE4B800EF9060 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = syllabicskeyboardapp/syllabicskeyboardapp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"syllabicskeyboardapp/Preview Content\"";
+				DEVELOPMENT_TEAM = 8RA7CCBE66;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = syllabicskeyboardapp/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = badnotestudios.syllabicskeyboardapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		86A5DC542D9DE4B800EF9060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = syllabicskeyboardapp/syllabicskeyboardapp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"syllabicskeyboardapp/Preview Content\"";
+				DEVELOPMENT_TEAM = 8RA7CCBE66;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = syllabicskeyboardapp/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = badnotestudios.syllabicskeyboardapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		86A5DC552D9DE4B800EF9060 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		86A5DC562D9DE4B800EF9060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		86A5DC582D9DE4B800EF9060 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8RA7CCBE66;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = badnotestudios.syllabicskeyboardappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/syllabicskeyboardapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/syllabicskeyboardapp";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		86A5DC592D9DE4B800EF9060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8RA7CCBE66;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = badnotestudios.syllabicskeyboardappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/syllabicskeyboardapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/syllabicskeyboardapp";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		86A5DC5B2D9DE4B800EF9060 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8RA7CCBE66;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = badnotestudios.syllabicskeyboardappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = syllabicskeyboardapp;
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		86A5DC5C2D9DE4B800EF9060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8RA7CCBE66;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = badnotestudios.syllabicskeyboardappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = syllabicskeyboardapp;
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		86A5DC6A2D9DE87E00EF9060 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8RA7CCBE66;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Bodewadmiiwiibiian/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Bodewadmiiwiibiian;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = badnotestudios.syllabicskeyboardapp.Bodewadmiiwiibiian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86A5DC6B2D9DE87E00EF9060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8RA7CCBE66;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Bodewadmiiwiibiian/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Bodewadmiiwiibiian;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = badnotestudios.syllabicskeyboardapp.Bodewadmiiwiibiian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86A5DC262D9DE4B500EF9060 /* Build configuration list for PBXProject "syllabicskeyboardapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86A5DC552D9DE4B800EF9060 /* Debug */,
+				86A5DC562D9DE4B800EF9060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86A5DC522D9DE4B800EF9060 /* Build configuration list for PBXNativeTarget "syllabicskeyboardapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86A5DC532D9DE4B800EF9060 /* Debug */,
+				86A5DC542D9DE4B800EF9060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86A5DC572D9DE4B800EF9060 /* Build configuration list for PBXNativeTarget "syllabicskeyboardappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86A5DC582D9DE4B800EF9060 /* Debug */,
+				86A5DC592D9DE4B800EF9060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86A5DC5A2D9DE4B800EF9060 /* Build configuration list for PBXNativeTarget "syllabicskeyboardappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86A5DC5B2D9DE4B800EF9060 /* Debug */,
+				86A5DC5C2D9DE4B800EF9060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86A5DC692D9DE87E00EF9060 /* Build configuration list for PBXNativeTarget "Bodewadmiiwiibiian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86A5DC6A2D9DE87E00EF9060 /* Debug */,
+				86A5DC6B2D9DE87E00EF9060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		86CAAB652DE670D200D64FA3 /* XCRemoteSwiftPackageReference "MoonKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/thejohnlima/MoonKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.5;
+			};
+		};
+		86CAAB682DE6711300D64FA3 /* XCRemoteSwiftPackageReference "SunKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SunKit-Swift/SunKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.8.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		86CAAB662DE670D200D64FA3 /* MoonKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 86CAAB652DE670D200D64FA3 /* XCRemoteSwiftPackageReference "MoonKit" */;
+			productName = MoonKit;
+		};
+		86CAAB852DE8AE7D00D64FA3 /* SunKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 86CAAB682DE6711300D64FA3 /* XCRemoteSwiftPackageReference "SunKit" */;
+			productName = SunKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 86A5DC232D9DE4B500EF9060 /* Project object */;
+}
