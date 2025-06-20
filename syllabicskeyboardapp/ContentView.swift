@@ -48,7 +48,7 @@ struct ContentView: View {
                         .cornerRadius(8)
                 }
                 
-                NavigationLink(destination: MythologyView()) {
+                NavigationLink(destination: MythologyMenuView()) {
                     Label("Explore Mythology", systemImage: "book.closed")
                         .font(.headline)
                         .padding()
