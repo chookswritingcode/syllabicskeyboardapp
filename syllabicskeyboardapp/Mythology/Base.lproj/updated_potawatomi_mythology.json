@@ -942,5 +942,110 @@
         "storyMagic"
       ]
     }
+  },
+  {
+    "id": "nibwaakaawin",
+    "name": "Nibwaakaawin",
+    "english_name": "Wisdom",
+    "type": "teaching",
+    "category": "7 Grandfathers",
+    "tags": ["teaching", "virtue", "grandfathers"],
+    "description": "Nibwaakaawin (Wisdom) teaches us to use our knowledge and experience to live a good life and help others do the same. Symbolized by the beaver, who uses wisdom to build and adapt.",
+    "associations": ["beaver", "elders", "guidance"],
+    "game_uses": {
+      "encounterType": "lesson",
+      "possibleTraits": ["intelligence", "guidance"],
+      "abilitiesGranted": ["strategicThinking", "wiseCounsel"]
+    }
+  },
+  {
+    "id": "zaagiidiwin",
+    "name": "Zaagi’idiwin",
+    "english_name": "Love",
+    "type": "teaching",
+    "category": "7 Grandfathers",
+    "tags": ["teaching", "virtue", "grandfathers"],
+    "description": "Zaagi’idiwin (Love) teaches that love must be unconditional and given freely. To know love is to know the Creator. Represented by the eagle, who flies closest to the spirit world.",
+    "associations": ["eagle", "creator", "compassion"],
+    "game_uses": {
+      "encounterType": "lesson",
+      "possibleTraits": ["compassion", "devotion"],
+      "abilitiesGranted": ["healOthers", "connectWithSpirit"]
+    }
+  },
+  {
+    "id": "manaadendamowin",
+    "name": "Manaadendamowin",
+    "english_name": "Respect",
+    "type": "teaching",
+    "category": "7 Grandfathers",
+    "tags": ["teaching", "virtue", "grandfathers"],
+    "description": "Manaadendamowin (Respect) means to honor all of Creation. To give respect is to receive it. The buffalo represents respect through its self-sacrifice for the people.",
+    "associations": ["buffalo", "honor", "balance"],
+    "game_uses": {
+      "encounterType": "lesson",
+      "possibleTraits": ["honor", "loyalty"],
+      "abilitiesGranted": ["communalHarmony", "protectCircle"]
+    }
+  },
+  {
+    "id": "aakodeewin",
+    "name": "Aakode’ewin",
+    "english_name": "Bravery",
+    "type": "teaching",
+    "category": "7 Grandfathers",
+    "tags": ["teaching", "virtue", "grandfathers"],
+    "description": "Aakode’ewin (Bravery) teaches us to face the enemy and walk through difficulty with integrity. Represented by the bear, who shows courage by defending the people and walking alone if needed.",
+    "associations": ["bear", "warrior", "strength"],
+    "game_uses": {
+      "encounterType": "lesson",
+      "possibleTraits": ["courage", "fearlessness"],
+      "abilitiesGranted": ["resistFear", "standAlone"]
+    }
+  },
+  {
+    "id": "gwayakwaadiziwin",
+    "name": "Gwayakwaadiziwin",
+    "english_name": "Honesty",
+    "type": "teaching",
+    "category": "7 Grandfathers",
+    "tags": ["teaching", "virtue", "grandfathers"],
+    "description": "Gwayakwaadiziwin (Honesty) means to be true to yourself and others. Be honest in your words and actions, and don’t try to be someone you are not. Represented by the sabe (giant being/spirit).",
+    "associations": ["sabe", "truth", "integrity"],
+    "game_uses": {
+      "encounterType": "lesson",
+      "possibleTraits": ["integrity", "truthfulness"],
+      "abilitiesGranted": ["discernTruth", "innerClarity"]
+    }
+  },
+  {
+    "id": "dabaadendiziwin",
+    "name": "Dabaadendiziwin",
+    "english_name": "Humility",
+    "type": "teaching",
+    "category": "7 Grandfathers",
+    "tags": ["teaching", "virtue", "grandfathers"],
+    "description": "Dabaadendiziwin (Humility) teaches that we are all equal in the eyes of the Creator. The wolf represents humility by living in harmony with the pack and never acting superior.",
+    "associations": ["wolf", "community", "equality"],
+    "game_uses": {
+      "encounterType": "lesson",
+      "possibleTraits": ["humility", "cooperation"],
+      "abilitiesGranted": ["blendWithGroup", "shareHonor"]
+    }
+  },
+  {
+    "id": "debwewin",
+    "name": "Debwewin",
+    "english_name": "Truth",
+    "type": "teaching",
+    "category": "7 Grandfathers",
+    "tags": ["teaching", "virtue", "grandfathers"],
+    "description": "Debwewin (Truth) teaches that truth is to know all the other teachings. To live truth is to walk and speak in alignment with the heart. Often paired with the turtle, who carries ancient knowledge.",
+    "associations": ["turtle", "honesty", "eternity"],
+    "game_uses": {
+      "encounterType": "lesson",
+      "possibleTraits": ["truthfulness", "integrity"],
+      "abilitiesGranted": ["seeThroughLies", "liveInBalance"]
+    }
   }
 ]
