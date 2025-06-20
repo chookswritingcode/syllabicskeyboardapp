@@ -476,6 +476,16 @@ class KeyboardViewController: UIInputViewController {
 
         // Update highlight colors
         for case let button as UIButton in sender.superview?.subviews ?? [] {
+            // Preserve highlighting for the long and w modifier buttons
+            if button === longButton {
+                button.backgroundColor = isLongVowel ? .orange : .lightGray
+                continue
+            }
+            if button === wButton {
+                button.backgroundColor = hasWGlide ? .orange : .lightGray
+                continue
+            }
+
             let bVowel = button.accessibilityIdentifier?.lowercased()
             button.backgroundColor = (bVowel == currentVowel) ? .cyan : .lightGray
         }
