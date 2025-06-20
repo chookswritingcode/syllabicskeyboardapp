@@ -20,17 +20,35 @@ private func entityRowView(for entity: MythEntity) -> some View {
 struct MythologyView: View {
     @ObservedObject var data = MythologyData()
     @State private var searchText: String = ""
+    @State private var selectedType: MythEntity.MythEntityType?
+    @State private var selectedCategory: String?
+    @State private var selectedTag: String?
+
+    private var allCategories: [String] {
+        let set = Set(data.entities.map { $0.category })
+        return Array(set).sorted()
+    }
+
+    private var allTags: [String] {
+        let set = Set(data.entities.flatMap { $0.tags })
+        return Array(set).sorted()
+    }
 
     var filteredEntities: [MythEntity] {
-        if searchText.isEmpty {
-            return data.entities
-        } else {
-            return data.entities.filter { entity in
-                entity.name.localizedCaseInsensitiveContains(searchText) ||
-                entity.category.localizedCaseInsensitiveContains(searchText) ||
-                entity.type.rawValue.localizedCaseInsensitiveContains(searchText) ||
-                entity.tags.contains(where: { $0.localizedCaseInsensitiveContains(searchText) })
-            }
+        data.entities.filter { entity in
+            let matchesSearch: Bool = {
+                if searchText.isEmpty { return true }
+                return entity.name.localizedCaseInsensitiveContains(searchText) ||
+                    entity.category.localizedCaseInsensitiveContains(searchText) ||
+                    entity.type.rawValue.localizedCaseInsensitiveContains(searchText) ||
+                    entity.tags.contains(where: { $0.localizedCaseInsensitiveContains(searchText) })
+            }()
+
+            let matchesType = selectedType == nil || entity.type == selectedType
+            let matchesCategory = selectedCategory == nil || entity.category == selectedCategory
+            let matchesTag = selectedTag == nil || entity.tags.contains(selectedTag!)
+
+            return matchesSearch && matchesType && matchesCategory && matchesTag
         }
     }
 
@@ -43,20 +61,55 @@ struct MythologyView: View {
     }
 
     private var content: some View {
-        List {
-            ForEach(MythEntity.MythEntityType.allCases, id: \.self) { type in
-                section(for: type)
+        VStack {
+            filterView
+            List {
+                ForEach(MythEntity.MythEntityType.allCases, id: \.self) { type in
+                    section(for: type)
+                }
             }
         }
     }
 
+    private var filterView: some View {
+        VStack(alignment: .leading) {
+            Picker("Type", selection: $selectedType) {
+                Text("All Types").tag(MythEntity.MythEntityType?.none)
+                ForEach(MythEntity.MythEntityType.allCases, id: \.self) { type in
+                    Text(type.displayName).tag(type as MythEntity.MythEntityType?)
+                }
+            }
+            .pickerStyle(.menu)
+
+            Picker("Category", selection: $selectedCategory) {
+                Text("All Categories").tag(String?.none)
+                ForEach(allCategories, id: \.self) { category in
+                    Text(category.capitalized).tag(category as String?)
+                }
+            }
+            .pickerStyle(.menu)
+
+            Picker("Tag", selection: $selectedTag) {
+                Text("All Tags").tag(String?.none)
+                ForEach(allTags, id: \.self) { tag in
+                    Text(tag.capitalized).tag(tag as String?)
+                }
+            }
+            .pickerStyle(.menu)
+        }
+        .padding(.horizontal)
+    }
+
+    @ViewBuilder
     private func section(for type: MythEntity.MythEntityType) -> some View {
         let entitiesOfType = filteredEntities.filter { $0.type == type }
 
-        return Section(header: Text(type.displayName).font(.headline)) {
-            ForEach(entitiesOfType) { entity in
-                NavigationLink(destination: MythDetailView(entity: entity)) {
-                    entityRowView(for: entity)
+        if !entitiesOfType.isEmpty {
+            Section(header: Text(type.displayName).font(.headline)) {
+                ForEach(entitiesOfType) { entity in
+                    NavigationLink(destination: MythDetailView(entity: entity)) {
+                        entityRowView(for: entity)
+                    }
                 }
             }
         }
