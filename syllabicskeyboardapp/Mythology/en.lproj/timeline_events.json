@@ -1,0 +1,32 @@
+[
+  {
+    "id": "creation_world",
+    "title": "Creation of the World",
+    "description": "Kitchi Manitou forms the earth and all its beings.",
+    "year": "time immemorial"
+  },
+  {
+    "id": "migration_great_lakes",
+    "title": "Potawatomi Migration to the Great Lakes",
+    "description": "The Potawatomi people settle around the Great Lakes region.",
+    "year": "pre-contact"
+  },
+  {
+    "id": "three_fires_alliance",
+    "title": "Formation of the Council of Three Fires",
+    "description": "Alliance between the Ojibwe, Odawa, and Potawatomi nations.",
+    "year": "1600"
+  },
+  {
+    "id": "trail_of_death",
+    "title": "Trail of Death",
+    "description": "Forced removal of Potawatomi from Indiana to Kansas.",
+    "year": "1838"
+  },
+  {
+    "id": "federal_recognition",
+    "title": "Federal Recognition",
+    "description": "Modern recognition of Potawatomi tribes by the U.S. government.",
+    "year": "20th century"
+  }
+]

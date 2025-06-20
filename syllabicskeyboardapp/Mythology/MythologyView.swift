@@ -20,17 +20,28 @@ private func entityRowView(for entity: MythEntity) -> some View {
 struct MythologyView: View {
     @ObservedObject var data = MythologyData()
     @State private var searchText: String = ""
+    @State private var selectedType: MythEntity.MythEntityType?
+    @State private var selectedCategory: String?
+    @State private var selectedTag: String?
+
+    private var allCategories: [String] {
+        Array(Set(data.entities.map { $0.category })).sorted()
+    }
+
+    private var allTags: [String] {
+        Array(Set(data.entities.flatMap { $0.tags })).sorted()
+    }
 
     var filteredEntities: [MythEntity] {
-        if searchText.isEmpty {
-            return data.entities
-        } else {
-            return data.entities.filter { entity in
+        data.entities.filter { entity in
+            (searchText.isEmpty ||
                 entity.name.localizedCaseInsensitiveContains(searchText) ||
                 entity.category.localizedCaseInsensitiveContains(searchText) ||
                 entity.type.rawValue.localizedCaseInsensitiveContains(searchText) ||
-                entity.tags.contains(where: { $0.localizedCaseInsensitiveContains(searchText) })
-            }
+                entity.tags.contains(where: { $0.localizedCaseInsensitiveContains(searchText) })) &&
+            (selectedType == nil || entity.type == selectedType) &&
+            (selectedCategory == nil || entity.category == selectedCategory) &&
+            (selectedTag == nil || entity.tags.contains(selectedTag!))
         }
     }
 
@@ -44,6 +55,34 @@ struct MythologyView: View {
 
     private var content: some View {
         List {
+            Section {
+                VStack(alignment: .leading, spacing: 8) {
+                    Picker("Type", selection: $selectedType) {
+                        Text("All").tag(MythEntity.MythEntityType?.none)
+                        ForEach(MythEntity.MythEntityType.allCases, id: \.self) { type in
+                            Text(type.displayName).tag(Optional(type))
+                        }
+                    }
+                    .pickerStyle(.menu)
+
+                    Picker("Category", selection: $selectedCategory) {
+                        Text("All").tag(String?.none)
+                        ForEach(allCategories, id: \.self) { category in
+                            Text(category.capitalized).tag(Optional(category))
+                        }
+                    }
+                    .pickerStyle(.menu)
+
+                    Picker("Tag", selection: $selectedTag) {
+                        Text("All").tag(String?.none)
+                        ForEach(allTags, id: \.self) { tag in
+                            Text(tag.capitalized).tag(Optional(tag))
+                        }
+                    }
+                    .pickerStyle(.menu)
+                }
+            }
+
             ForEach(MythEntity.MythEntityType.allCases, id: \.self) { type in
                 section(for: type)
             }
@@ -53,10 +92,14 @@ struct MythologyView: View {
     private func section(for type: MythEntity.MythEntityType) -> some View {
         let entitiesOfType = filteredEntities.filter { $0.type == type }
 
-        return Section(header: Text(type.displayName).font(.headline)) {
-            ForEach(entitiesOfType) { entity in
-                NavigationLink(destination: MythDetailView(entity: entity)) {
-                    entityRowView(for: entity)
+        return Group {
+            if !entitiesOfType.isEmpty {
+                Section(header: Text(type.displayName).font(.headline)) {
+                    ForEach(entitiesOfType) { entity in
+                        NavigationLink(destination: MythDetailView(entity: entity)) {
+                            entityRowView(for: entity)
+                        }
+                    }
                 }
             }
         }

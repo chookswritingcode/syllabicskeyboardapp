@@ -84,23 +84,26 @@
 		};
 		86CAAB762DE78C4B00D64FA3 /* Exceptions for "syllabicskeyboardapp" folder in "syllabicskeyboardappTests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				"/Localized: Mythology/updated_potawatomi_mythology.json",
-			);
+                        membershipExceptions = (
+                                "/Localized: Mythology/updated_potawatomi_mythology.json",
+                                "/Localized: Mythology/timeline_events.json",
+                        );
 			target = 86A5DC3E2D9DE4B800EF9060 /* syllabicskeyboardappTests */;
 		};
 		86CAAB772DE78C4B00D64FA3 /* Exceptions for "syllabicskeyboardapp" folder in "syllabicskeyboardappUITests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				"/Localized: Mythology/updated_potawatomi_mythology.json",
-			);
+                        membershipExceptions = (
+                                "/Localized: Mythology/updated_potawatomi_mythology.json",
+                                "/Localized: Mythology/timeline_events.json",
+                        );
 			target = 86A5DC482D9DE4B800EF9060 /* syllabicskeyboardappUITests */;
 		};
 		86CAAB782DE78C4B00D64FA3 /* Exceptions for "syllabicskeyboardapp" folder in "Bodewadmiiwiibiian" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				"/Localized: Mythology/updated_potawatomi_mythology.json",
-			);
+                        membershipExceptions = (
+                                "/Localized: Mythology/updated_potawatomi_mythology.json",
+                                "/Localized: Mythology/timeline_events.json",
+                        );
 			target = 86A5DC602D9DE87D00EF9060 /* Bodewadmiiwiibiian */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
