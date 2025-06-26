@@ -55,7 +55,11 @@ final class MythologyData: ObservableObject {
     }
 
     func load() {
-        guard let url = Bundle.main.url(forResource: "updated_potawatomi_mythology", withExtension: "json") else {
+        guard let url = Bundle.main.url(
+            forResource: "updated_potawatomi_mythology",
+            withExtension: "json",
+            subdirectory: "Mythology"
+        ) else {
             print("Mythology JSON file not found")
             return
         }
