@@ -15,7 +15,11 @@ final class TimelineData: ObservableObject {
     }
 
     func load() {
-        guard let url = Bundle.main.url(forResource: "timeline_events", withExtension: "json") else {
+        guard let url = Bundle.main.url(
+            forResource: "timeline_events",
+            withExtension: "json",
+            subdirectory: "Mythology"
+        ) else {
             print("Timeline JSON file not found")
             return
         }
