@@ -21,6 +21,12 @@ struct MythEntity: Codable, Identifiable {
     let loreImportance: Int?
     let gameUses: GameUses?
 
+    enum CodingKeys: String, CodingKey {
+        case id, name, type, category, tags, description
+        case loreImportance = "lore_importance"
+        case gameUses = "game_uses"
+    }
+
     enum MythEntityType: String, Codable, CaseIterable {
         case person
         case place
