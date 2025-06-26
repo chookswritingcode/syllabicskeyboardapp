@@ -57,7 +57,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		868EC0412DCD2B7D003C438B /* GentiumPlus-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GentiumPlus-Regular.ttf"; sourceTree = "<group>"; };
+		868EC0412DCD2B7D003C438B /* GentiumPlus-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GentiumPlus-Regular.ttf"; 				sourceTree = "<group>"; };
 		868EC0442DCD2CB1003C438B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file; name = Base; path = Base.lproj/GentiumKaktovik.ttf; sourceTree = "<group>"; };
 		868EC0482DCD2CB3003C438B /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/GentiumKaktovik.ttf; sourceTree = "<group>"; };
 		868EC0792DCE3160003C438B /* NotoSansSymbols2-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansSymbols2-Regular.ttf"; sourceTree = "<group>"; };
@@ -450,8 +450,8 @@
 				868EC0482DCD2CB3003C438B /* en */,
 			);
 			name = GentiumKaktovik.ttf;
-			path = "/Users/carterdavidson/Library/Mobile Documents/com~apple~CloudDocs/Ancestors/keyboardapp/syllabicskeyboardapp";
-			sourceTree = "<absolute>";
+				path = "Mythology";
+				sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
